@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/edt_add_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/edt_add_singer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter singer"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/edt_add_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter timer"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_add_singer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+</LinearLayout>
