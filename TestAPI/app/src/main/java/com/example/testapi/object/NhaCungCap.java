@@ -1,27 +1,27 @@
 package com.example.testapi.object;
 
 public class NhaCungCap {
-    private String MaNCC;
-    private String TenNCC;
+    private String mancc;
+    private String tenncc;
 
     public NhaCungCap(String maNCC, String tenNCC) {
-        MaNCC = maNCC;
-        TenNCC = tenNCC;
+        mancc = maNCC;
+        tenncc = tenNCC;
     }
 
-    public String getMaNCC() {
-        return MaNCC;
+    public String getMancc() {
+        return mancc;
     }
 
-    public void setMaNCC(String maNCC) {
-        MaNCC = maNCC;
+    public void setMancc(String mancc) {
+        this.mancc = mancc;
     }
 
-    public String getTenNCC() {
-        return TenNCC;
+    public String getTenncc() {
+        return tenncc;
     }
 
-    public void setTenNCC(String tenNCC) {
-        TenNCC = tenNCC;
+    public void setTenncc(String tenncc) {
+        this.tenncc = tenncc;
     }
 }
